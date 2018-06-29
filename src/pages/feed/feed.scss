@@ -4,7 +4,19 @@ page-feed {
         margin: 0 auto;
     }
 
-    .post-editor{
-        margin: 10px;
+    .post-editor {
+        margin-bottom: 0px;
+    }
+
+    .post-editor {
+        margin: 10px 10px 0px 10px;
+    }
+
+    .btn-post {
+        margin: 0px 10px 10px 10px;
+    }
+    
+    ion-card {
+        margin-top: 15px !important;
     }
 }
