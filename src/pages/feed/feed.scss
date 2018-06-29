@@ -14,9 +14,17 @@ page-feed {
 
     .btn-post {
         margin: 0px 10px 10px 10px;
+
+        button {
+            margin-top: 0px;
+        }
     }
     
     ion-card {
         margin-top: 15px !important;
+    }
+
+    ion-content {
+        background-color: #FAFAFA !important;
     }
 }

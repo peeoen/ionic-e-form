@@ -20,6 +20,6 @@ export class HttpService {
     }
 
     deletePost(postId: string) {
-        return this.http.delete(this.URL + `api/feeds/DeletePost?id=${postId}`);
+        return this.http.delete(this.URL + `api/feeds/DeletePost?postId=${postId}`);
     }
 }
